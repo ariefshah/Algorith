@@ -49,6 +49,10 @@ namespace Algorith
 
         public static void BruteForce()
         {
+            var adjList = new LinkedList<int>();
+
+            adjList.AddFirst(1);
+
             Stopwatch clock = Stopwatch.StartNew();
 
             int result = int.MaxValue;

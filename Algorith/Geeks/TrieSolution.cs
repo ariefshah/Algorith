@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace Algorith.Geeks
 {
@@ -95,6 +96,8 @@ namespace Algorith.Geeks
             for (i = 0; i < keys.Length; i++)
                 Insert(keys[i]);
 
+         //   var n= new SortedDictionary<Heap,Heap>
+             //   var m= new ThreadPriority
             // Search for different keys 
             if (Search("the") == true)
                 Console.WriteLine("the --- " + output[1]);
